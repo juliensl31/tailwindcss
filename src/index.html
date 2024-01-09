@@ -1,48 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="output.css"
+    />
+    <title>
+      Mon projet Tailwind CSS
+    </title>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="output.css">
-    <title>Mon projet Tailwind CSS</title>
-</head>
-
-<body>
-    <h1 class="text-4xl px-5 pt-5 italic">
-        Bienvenue sur mon projet
-        <span class="
-                text-blue-800
-                not-italic
-                font-semibold
-                underline
-            ">Tailwind CSS</span>
-        !
+  <body>
+    <h1
+      class="text-4xl px-5 pt-5 italic"
+    >
+      Bienvenue sur mon projet
+      <span
+        class="text-blue-800 not-italic font-semibold underline"
+        >Tailwind CSS</span
+      >
+      !
     </h1>
 
-    <div style="background-color: pink" class="
-            h-96
-            mt-10
-            p-5
-            mx-5
-            border-t-4 border-b border-blue-900 border-dotted
-            rounded-bl-md rounded-br-3xl rounded-t
-            font-serif
-        ">
-        Ce site est actuellement en construction,
-        <span class="line-through">revenez plus tard</span>.
+    <div
+      style="
+        background-image: url('bg.jpeg');
+      "
+      class="h-96 mt-10 p-5 mx-5 border-t-4 border-b border-blue-900 border-dotted rounded-bl-md rounded-br-3xl rounded-t font-serif shadow-lg bg-gray-300 bg-opacity-50 bg-cover"
+    >
+      Ce site est actuellement
+      en construction,
+      <span
+        class="line-through"
+        >revenez plus
+        tard</span
+      >.
     </div>
 
-    <footer class="
-            mx-5
-            mt-5
-            font-mono
-            tracking-widest
-            text-center text-opacity-50 text-black
-        ">
-        Tous droits réservés
+    <div
+      class="mx-5 mt-5 flex gap-4 text-white"
+    >
+      <div class="flex-grow">
+        <div
+          class="bg-gray-400 p-4 rounded"
+        >
+          Article numéro 1
+        </div>
+      </div>
+      <div>
+        <div
+          class="bg-gray-400 p-4 rounded"
+        >
+          Article numéro 2
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="h-3 w-4/5 mx-auto mt-5 rounded-xl bg-gradient-to-r from-yellow-400 via-indigo-200 to-pink-700"
+    ></div>
+
+    <footer
+      class="mx-5 mt-5 font-mono tracking-widest text-center text-opacity-50 text-black"
+    >
+      Tous droits réservés
     </footer>
-</body>
-
-
+  </body>
 </html>
