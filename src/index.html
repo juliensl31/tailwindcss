@@ -8,23 +8,32 @@
   </head>
 
   <body>
-    <div class="group">
-		  <h1 class="text-4xl px-5 pt-5 italic group-hover:text-blue-300 group-hover:text-opacity-10">
-    
-        Bienvenue sur mon projet
-        <span
-          class="
-            text-blue-800
-            group-hover:text-opacity-10
-            not-italic
-            font-semibold
-            underline
-          "
-          >Tailwind CSS</span
-        >
-        !
-      </h1>
-  </div>
+		<div class="group">
+			<h1
+				class="
+					text-4xl
+					px-5
+					pt-5
+					italic
+					group-hover:text-blue-300
+					group-hover:text-opacity-10
+					group
+				"
+			>
+				Bienvenue sur mon projet
+				<span
+					class="
+						text-blue-800
+						group-hover:text-opacity-10
+						not-italic
+						font-semibold
+						underline
+					"
+					>Tailwind CSS</span
+				>
+				!
+			</h1>
+		</div>
 
 		<div
 			style="background-image: url('bg.jpeg')"
@@ -44,16 +53,68 @@
 			<span class="line-through">revenez plus tard</span>.
 		</div>
 
+		<div class="flex justify-center mt-5">
+			<svg
+				xmlns="http://www.w3.org/2000/svg"
+				class="h-6 w-6 animate-bounce"
+				fill="none"
+				viewBox="0 0 24 24"
+				stroke="currentColor"
+			>
+				<path
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					stroke-width="2"
+					d="M19 13l-7 7-7-7m14-8l-7 7-7-7"
+				/>
+			</svg>
+		</div>
+
 		<div class="mx-5 mt-5 flex gap-4 text-white">
 			<div class="flex-grow">
-				<div class="article">
+				<div class="article flex gap-1 items-center">
 					Article numéro 1
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						class="h-5 w-5 animate-spin"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke="currentColor"
+					>
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							stroke-width="2"
+							d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"
+						/>
+					</svg>
 				</div>
 			</div>
 
 			<div>
-				<div class="article">
-					Article numéro 2
+				<div class="article flex gap-4 items-center">
+					Messages
+					<div class="h-5 w-5 relative">
+						<span
+							class="
+								animate-ping
+								absolute
+								h-full
+								w-full
+								bg-red-500
+								rounded-full
+							"
+						></span>
+						<span
+							class="
+								bg-red-500
+								h-5
+								w-5
+								rounded-full
+								inline-flex
+							"
+						></span>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -68,6 +129,7 @@
 					transform
 					scale-90
 					-rotate-6
+					animate-pulse
 				"
 			>
 				Article numéro 3
@@ -84,41 +146,16 @@
 			>
 				Article numéro 4
 			</div>
-			<div
-				class="
-					article
-					transform
-					-translate-x-5
-				"
-			>
+			<div class="article transform -translate-x-5">
 				Article numéro 5
 			</div>
-			<div
-				class="
-					article
-					transform
-					translate-y-3
-				"
-			>
+			<div class="article transform translate-y-3">
 				Article numéro 6
 			</div>
-			<div
-				class="
-					article
-					transform
-					-rotate-3
-					scale-95
-				"
-			>
+			<div class="article transform -rotate-3 scale-95">
 				Article numéro 7
 			</div>
-			<div
-				class="
-					article
-					transform
-					translate-x-48
-				"
-			>
+			<div class="article transform translate-x-48">
 				Article numéro 8
 			</div>
 		</div>
