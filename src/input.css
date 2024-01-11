@@ -8,3 +8,13 @@
 .article {
     @apply bg-yellow-400 p-4 rounded hover:bg-yellow-300 transition duration-300 delay-150;
 }
+
+
+/* 
+    BREAKPOINTS
+    sm => 640px
+    md => 768px
+    lg => 1024px
+    xl => 1280px
+    2xl => 1536px
+*/
