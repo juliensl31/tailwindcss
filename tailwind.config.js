@@ -10,6 +10,9 @@ export const theme = {
         100: "#ffc580",
       },
     },
+    fontFamily: {
+      title: ["Gluten"],
+    },
   },
 };
 export const plugins = [];
