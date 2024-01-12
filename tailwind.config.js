@@ -13,6 +13,9 @@ export const theme = {
     fontFamily: {
       title: ["Gluten"],
     },
+    screens: {
+      "3xl": "1600px",
+    },
   },
 };
 export const plugins = [];
