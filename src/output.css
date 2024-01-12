@@ -1034,3 +1034,10 @@ video {
     flex-direction: row;
   }
 }
+
+@media (prefers-color-scheme: dark){
+  .dark\:bg-slate-700{
+    --tw-bg-opacity: 1;
+    background-color: rgb(51 65 85 / var(--tw-bg-opacity));
+  }
+}

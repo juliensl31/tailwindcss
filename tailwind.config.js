@@ -1,24 +1,27 @@
 /** @type {import('tailwindcss').Config} */
-export const content = ["./src/**/*{html,js}"];
-export const theme = {
-  extend: {
-    colors: {
-      primary: {
-        claire: "#fff3e5",
-        DEFAULT: "#ffd6a5",
-        sombre: "#b36100",
-        100: "#ffc580",
+module.exports = {
+  content: ["./src/**/*.{html,js}"],
+  darkMode: "media", //"media" regarde les préférence de l'ordinateur, "class" est détecté par une action utilisateur
+  theme: {
+    extend: {
+      colors: {
+        primary: {
+          claire: "#fff3e5",
+          DEFAULT: "#ffd6a5",
+          sombre: "#b36100",
+          100: "#ffc580",
+        },
+      },
+      fontFamily: {
+        title: ["Gluten"],
+      },
+      screens: {
+        "3xl": "1600px",
       },
     },
-    fontFamily: {
-      title: ["Gluten"],
-    },
-    screens: {
-      "3xl": "1600px",
+    container: {
+      center: true,
     },
   },
-  container: {
-    center: true,
-  },
+  plugins: [],
 };
-export const plugins = [];
