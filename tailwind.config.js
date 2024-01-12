@@ -17,5 +17,8 @@ export const theme = {
       "3xl": "1600px",
     },
   },
+  container: {
+    center: true,
+  },
 };
 export const plugins = [];
