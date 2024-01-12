@@ -10,7 +10,7 @@
 
 /* Composant */
 .article {
-    @apply bg-yellow-400 p-4 rounded hover:bg-yellow-300 transition duration-300 delay-150 active:transform active:scale-90;
+    @apply bg-yellow-400 p-4 rounded hover:bg-yellow-300 transition duration-300 delay-150 active:transform active:scale-90 group-hover:transform-none;
 }
 
 
